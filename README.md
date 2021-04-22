@@ -41,6 +41,11 @@ return [
 
 - ``` php run.php```
 
+# Builder un release distribuable
+
+Créer un TAG dans GIT (Ex : 1.0.2) puis lancer la commande, elle va créer un zip dans le dossier build
+ - ``` ./release.sh```
+
 # FAQ
 
  - [Impossible de créer un mot de passe d'application ?](https://support.google.com/accounts/answer/185833)
