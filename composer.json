@@ -1,0 +1,30 @@
+{
+  "name": "arnolem/gmail-archiver",
+  "description": "Allows you to archive old emails from one Gmail mailbox to another Gmail mailbox",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arnaud",
+      "email": "arnaud@wixiweb.fr"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-imap": "*",
+    "ext-mbstring": "*",
+    "ext-iconv": "*",
+    "ddeboer/imap": "dev-fix-addmessage"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/arnolem/imap"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/App"
+    }
+  }
+}
