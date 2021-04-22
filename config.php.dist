@@ -1,0 +1,15 @@
+<?php
+return [
+    'from' => [
+        'host'     => 'imap.gmail.com',
+        'login'    => 'login@gmail.com',
+        'password' => '****************'
+    ],
+    'to'   => [
+        'host'     => 'imap.gmail.com',
+        'login'    => 'login_archive@gmail.com',
+        'password' => '****************'
+    ],
+    'before' => '2012-01-01',
+    'since'  => '2010-01-01',
+];
