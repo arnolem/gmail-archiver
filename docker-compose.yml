@@ -1,0 +1,11 @@
+version: '3.2'
+
+services:
+  php7.4:
+    build: ./docker/php7.4
+    volumes:
+      - .:/app
+  php8.0:
+    build: ./docker/php8.0
+    volumes:
+      - .:/app
